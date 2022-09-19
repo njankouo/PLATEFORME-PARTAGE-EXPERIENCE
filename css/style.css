@@ -52,7 +52,7 @@ html,body{
 }
 .app_front div{
     border:0px solid black;
-    width: 75%;
+    
 }
 .brand_sentence{
     line-height: 1.2;
@@ -73,10 +73,15 @@ html,body{
 }
 .app_front_image img{
    
-  height: 89.4%;
-  width: 89.4%;
+  height: 89%;
+  width: 89%;
 
  
+}
+.brand_desc{
+    font-size: 20px;
+    font-weight: 500;
+
 }
 .search_app_front{
     margin-bottom: 2px;
@@ -89,7 +94,7 @@ html,body{
 border:1px solid rgb(172, 172, 172);
 border-radius: 5px;
 padding: 2px;
-background-color: white;
+background-color:transparent;
 font-size: 15px;
 }
 .current_search .elmt_pop{
@@ -106,7 +111,7 @@ font-size: 15px;
     line-height: 0.8;
 }
 .current_vid .title_part .sub_title_part{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: lighter;
 }
 .vid_action{
@@ -118,4 +123,95 @@ font-size: 15px;
 .card_curr_vid .card .card-content .card-title{
     font-weight: bold;
     font-size: 20px;
+}
+.more_vid a{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.card_curr_vid .card .card-action .reveal_activ{
+    cursor:pointer;
+    text-transform:uppercase;
+}
+.expect_row{
+   
+}
+.second_page{
+    border:0px solid red ;
+    
+}
+
+.second_page .desc_expect .card{
+    border: 0px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.second_page .desc_expect .card .card-image{
+    border: 0px solid black;
+    padding: 24px;
+    
+
+}
+.second_page .desc_expect .card .card-content{
+    border: 0px solid black;
+    padding: 20px;
+    height: 100%;
+    text-align: justify;
+    font-weight: 400;
+    
+}
+.second_page .desc_expect .card .card-content .card-title{
+    font-weight: 900;   
+}
+.second_page .desc_expect .card .card-image img{
+    border: 0px solid black;
+    
+}
+.second_page .title_second_page{
+    font-weight: bold;
+    font-size: 25px;
+    border:0px solid red;
+}
+.expect_part{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border: 0px solid black;
+}
+
+.third_page .cat_elmnt{
+    border: 0px solid black;
+    width: 250px;
+    height: 250px;
+    text-align: center;   
+}
+
+.title_third_page{
+    font-weight: bold;
+    font-size: 25px;
+    border: 0px green dashed;
+
+
+}
+.third_page .cat_elmnt p{
+    border: 0px solid black;
+    margin: 0;
+    font-weight:bold ;
+    font-size: 20px;
+}
+.third_page .cat_elmnt img{
+    border: 0px solid black;
+    height: 80%;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.third_page{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 0px solid black;
+}
+.third_page .cat_page{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border: 0px solid black;
 }
