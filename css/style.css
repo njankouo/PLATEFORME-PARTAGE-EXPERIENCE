@@ -92,7 +92,30 @@ padding: 2px;
 background-color: white;
 font-size: 15px;
 }
-.current_search .active{
+.current_search .elmt_pop{
     background-color: transparent;
     font-weight: bold;
+}
+.current_vid{
+    margin-top: 4%;
+}
+.current_vid .title_part{
+    padding: 11.25px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 0.8;
+}
+.current_vid .title_part .sub_title_part{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.vid_action{
+    margin-left:10%;
+}
+.vid_action span{
+    margin: 6px;
+}
+.card_curr_vid .card .card-content .card-title{
+    font-weight: bold;
+    font-size: 20px;
 }
