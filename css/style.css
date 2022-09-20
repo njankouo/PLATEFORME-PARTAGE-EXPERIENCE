@@ -205,6 +205,12 @@ font-size: 15px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 
 }
+.third_page .cat_elmnt img:hover{
+    height:81%;
+    cursor: pointer;
+    background-color: rgba(250, 225, 225, 0.61);
+
+}
 .third_page{
     padding-top: 20px;
     padding-bottom: 10px;
@@ -214,4 +220,114 @@ font-size: 15px;
     margin-top: 2%;
     margin-bottom: 4%;
     border: 0px solid black;
+}
+
+.fourth_page{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 0px solid black;
+    background-color: black;
+    background-image:url(../image/bloc_ope.png) ;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+
+    
+    
+}
+
+.fourth_page .num_page{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border: 0px solid black;
+}
+.fourth_page .num_page .title_num_page{
+    font-weight: bold;
+    font-size: 25px;
+    border: 0px green dashed;
+
+}
+.fourth_page .num_page .row {
+    border: 0px solid red;
+    margin-top: 2%;
+}
+
+
+
+.promo{
+    width: 100%;
+    border: 1px solid rgba(243, 50, 50, 0.5);
+    padding: 10%;
+    border-radius: 20px;
+    box-shadow: rgba(240, 46, 46, 0.4) 0px 5px, rgba(240, 46, 46, 0.3) 0px 10px, rgba(240, 46, 46, 0.2) 0px 15px, rgba(240, 46, 46, 0.1) 0px 20px, rgba(240, 46, 46, 0.05) 0px 25px;
+}
+.promo span{
+    font-size: 3.7rem;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0.9px 0px;
+
+}
+
+.promo-caption {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+/* la cinquième place*/
+.fifth_page{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.fifth_page .partner_place{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    
+}
+.fifth_page .partner_place .testi_title{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 25px;
+    border: 0px green dashed;
+}
+.carousel{
+    
+    perspective: 250px;   
+    border: 1px solid black; 
+    
+}
+.carousel .carousel-item {
+	width: 450px;
+	background: #fff;
+	padding: 50px;
+	height: auto;
+	text-align: center;
+    border-radius: 15px;
+}
+.img-area {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 50%;
+	border: inset 8px deepskyblue;
+}
+        .img-area img{
+            width: 100%;
+        }
+        .testi p {
+	color: #262626;
+	font-size: 18px;
+	line-height: 1.9;
+}
+        .testi h4 {
+	font-size: 20px;
+	margin: 0;
+	color: #000;
+}
+        .testi h5 {
+	font-size: 14px;
+	letter-spacing: 5px;
+	margin: 7px 0;
 }

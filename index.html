@@ -534,10 +534,131 @@
             </div>
 
         </div>
+        <div class="fourth_page">
+            <div class="center-align container num_page">
+                <div class="title_num_page">
+                    Nos Chiffres
+                </div>
+                <div class="row">
+                    <div class="col l3">
+                        <div class="promo center">
+                            <span>&#43;&#49;&#53;</span>
+                            <p class="promo-caption">
+                                experts à la cause dévoués
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col l3">
+                        <div class="promo center">
+                            <span>&#43;&#49;&#53;&#48;&#48;&#48;</span>
+                            <p class="promo-caption">
+                                inscrits sur la plateforme
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col l3">
+                        <div class="promo center">
+                            <span>&#43;&#49;&#48;</span>
+                            <p class="promo-caption">
+                                partenariats multidisciplinaires
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col l3">
+                        <div class="promo center">
+                            <span>&#43;&#50;&#53;&#48;&#48;</span>
+                            <p class="promo-caption">
+                                vidéos triées et pertinantes
+                            </p>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </div>
+        <div class="fifth_page">
+            <div class="container partner_place">
+                <div class="center-align testi_title">
+                    <p>Témoignages</p>
+                </div>
+                <div class="carousel col l12">
+                    <a class="carousel-item" href="#">
+                        <div class="testi">
+                            <div class="img-area">
+                                <img src="./image/1.png">
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                            <h4>Jessica Jones</h4>
+                            <h5>Web Designer</h5>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="testi">
+                            <div class="img-area">
+                                <img src="./image/1.png">
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                            <h4>Jessica Jones</h4>
+                            <h5>Web Designer</h5>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="testi">
+                            <div class="img-area">
+                                <img src="./image/1.png">
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                            <h4>Jessica Jones</h4>
+                            <h5>Web Designer</h5>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="testi">
+                            <div class="img-area">
+                                <img src="./image/1.png">
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                            <h4>Jessica Jones</h4>
+                            <h5>Web Designer</h5>
+                        </div>
+                    </a>
+                    <a class="carousel-item" href="#">
+                        <div class="testi">
+                            <div class="img-area">
+                                <img src="./image/1.png">
+                            </div>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus veritatis repellendus delectus, est, alias recusandae."</p>
+                            <h4>Jessica Jones</h4>
+                            <h5>Web Designer</h5>
+                        </div>
+                    </a>
+                  
+               </div>
+
+            </div>
+        </div>
+        <div class="sixth_page">
+            <div class="container partner_place">
+
+            </div>
+        </div>
     </main>
     
 </body>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+<script>
+    $(document).ready(function(){
+      $('.carousel').carousel({
+              padding: 200
+      });
+      autoplay();
+      function autoplay() {
+          $('.carousel').carousel('next');
+          setTimeout(autoplay, 4500);
+      }
+    });
+  </script>
 </html>
