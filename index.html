@@ -17,18 +17,42 @@
     <header>
         <nav class="navigation white">
             <div class="nav-wrapper ">
-                <a href="#" class="brand-logo black-text "><b>Logo</b></a>
-                <ul id="nav-mobile " class="navi_tab ">
+                <a href="#" class="button-collapse sidenav-trigger hide-on-large-only menu_link" data-target="mobile_menu">
+                    <i class="material-icons black-text">
+                        menu
+                    </i>
+                </a>
+                <a href="#" class="brand-logo black-text"><b>Logo</b></a>
+                <ul id="nav-mobile " class="navi_tab hide-on-med-and-down">
                     <li><a class="black-text">Accueil</a></li>
                     <li><a class="black-text">Onglet 1</a></li>
                     <li><a class="black-text">Onglet 2</a></li>
                     <li><a class="black-text">Onglet 3</a></li>
                     <li><a class="black-text">Onglet 4</a></li>
                 </ul>
-                <ul class="log_sign nav-mobile right">
+                <ul class="log_sign nav-mobile right hide-on-small-only">
                     <li><a class="black-text">Login</a></li>
                     <li><button class="red sign white-text">Sign Up</button></li>
 
+                </ul>
+                <ul id="mobile_menu" class="sidenav">
+                    <li class="li_user_view valign-wrapper"><div class="user-view">
+                        
+                          <img src="./image/welcome.jpg" class="responsive-img">
+                        
+                        <!--a href="#user"><img class="circle" src="images/yuna.jpg"></!--a-->
+                        <!--a href="#"><span class="white-text name">Bienvenue</span></!--a-->
+                        <!--a href="#email"><span class="white-text email">jdandturk@gmail.com</span></!--a-->
+                      </div></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">home</i>First Link With Icon</a></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">local_library</i>First Link With Icon</a></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">video_library</i>First Link With Icon</a></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">support_agent</i>First Link With Icon</a></li>
+                      <li><div class="divider"></div></li>
+                      <li><a class="subheader">Partie Connection</a></li>
+                      <li><div class="divider"></div></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">person</i>Sign in</a></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">login</i>Login</a></li>
                 </ul>
             </div>
             
@@ -238,7 +262,7 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title left-align" >
-                                    <span class="" data-badge-caption="">
+                                    <span class="new badge red" data-badge-caption="hot">
                                         
                                     </span>
                                     Chirurgie Rhino-plastique
@@ -338,7 +362,7 @@
                             </div>
                             <div class="card-content">
                                 <span class="card-title left-align" >
-                                    <span class="" data-badge-caption="">
+                                    <span class="new badge" data-badge-caption="">
                                         
                                     </span>
                                     Chirurgie Rhino-plastique
@@ -639,18 +663,67 @@
 
             </div>
         </div>
-        <div class="sixth_page">
+        <div class="sixth_page grey lighten-4">
             <div class="container partner_place">
-
+                <div class="partner_title center-align">
+                    <p>
+                        Nos partenaires
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col l3 partner_ico">
+                    <img src="https://www.pmits.co.uk/portals/0/images/partners/cbf-200.png" alt=""> 
+                    </div>
+                    <div class="col l3 partner_ico">
+                        <img src="https://www.pmits.co.uk/portals/0/images/partners/solar-communications-200.png" alt=""> 
+                    </div>
+                    <div class="col l3 partner_ico">
+                        <img src="https://www.pmits.co.uk/portals/0/images/partners/gxs-200.png" alt=""> 
+                    </div>
+                    <div class="col l3 partner_ico">
+                        <img src="https://www.pmits.co.uk/portals/0/images/partners/jpr-200.png" alt=""> 
+                    </div>
+                </div>
             </div>
         </div>
     </main>
+    <footer class="page-footer red darken-4">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">La PlateForme</h5>
+              <p class="grey-text text-lighten-4">Mini texte pour la presententation ou ending plateforme.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container  test_footer">
+          
+          <p class="grey-text text-lighten-4 right social_link" >
+            <a href=""><img src="./image/facebook.png" alt="" class="responsive-img"></a>
+            <a href=""><img src="./image/twitter.png" alt="" class="responsive-img"></a>
+            <a href=""><img src="/image/youtube.png" alt="" class="responsive-img"></a>
+          </p>
+          <p class="copy_right">© 2022 2N Corporate</p>
+          </div>
+        </div>
+      </footer>
     
 </body>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script>
     $(document).ready(function(){
+      $('.sidenav').sidenav();    
       $('.carousel').carousel({
               padding: 200
       });

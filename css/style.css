@@ -11,13 +11,22 @@ html,body{
     margin-left: 10%;
     
 }
+.menu_link{
+    display: inline-block;
+}
 .navi_tab{
-    margin-left: 15%;
+    margin-left: 20%;
     
 }
 .log_sign{
     margin-right: 10%;
 }
+.li_user_view{
+    display: inline-block;
+    border-bottom: inset 2px red;
+   
+}
+
 .sign{
     padding:2%;
     width: 80px;
@@ -264,7 +273,7 @@ font-size: 15px;
 .promo span{
     font-size: 3.7rem;
     font-weight: bold;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 0.9px 0px;
+    box-shadow: rgba(196, 196, 196, 0.4) 0px 1px 0.9px 0px;
 
 }
 
@@ -294,7 +303,7 @@ font-size: 15px;
 .carousel{
     
     perspective: 250px;   
-    border: 1px solid black; 
+    border: 0px solid black; 
     
 }
 .carousel .carousel-item {
@@ -304,6 +313,7 @@ font-size: 15px;
 	height: auto;
 	text-align: center;
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .img-area {
 	width: 100px;
@@ -330,4 +340,71 @@ font-size: 15px;
 	font-size: 14px;
 	letter-spacing: 5px;
 	margin: 7px 0;
+}
+
+/*sixième page*/
+
+.sixth_page{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.sixth_page .partner_place{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.sixth_page .partner_title{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 25px;
+    border: 0px green dashed;
+}
+.sixth_page .row{
+    margin-top: 5%;
+    
+}
+.sixth_page .partner_place .partner_ico img{
+    max-width:100%;
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+.sixth_page .partner_place .partner_ico:hover img{
+    filter: none;
+}
+/* le footer */
+footer .footer-copyright p a {
+    border: 0px solid black;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 6px;
+    
+}
+footer .footer-copyright p a img{
+    border: 0px solid black;
+    width: 35px;
+    height: 35px;
+    filter: grayscale(100%);
+}
+footer .footer-copyright p a:hover img{
+   
+    filter: none;
+}
+.copy_right{
+    width: 150px;
+    vertical-align: middle;
+    margin-top: 2%;
+}
+
+/* la partie mobile*/
+@media screen and (max-width:990px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    .brand-logo{
+        margin:auto
+    }
+    
 }
