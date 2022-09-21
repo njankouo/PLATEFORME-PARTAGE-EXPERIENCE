@@ -406,5 +406,14 @@ footer .footer-copyright p a:hover img{
     .brand-logo{
         margin:auto
     }
-    
+    .sub_title_part{
+        text-align: center;
+        
+    }
+    .title_part{
+        text-align: center;
+    }
+    .desc_expect .card-content .card-title{
+        text-align: center;
+    }
 }
