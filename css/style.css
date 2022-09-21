@@ -189,8 +189,8 @@ font-size: 15px;
 
 .third_page .cat_elmnt{
     border: 0px solid black;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     text-align: center;   
 }
 
@@ -404,16 +404,13 @@ footer .footer-copyright p a:hover img{
         font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     }
     .brand-logo{
-        margin:auto
+        margin:auto;
     }
-    .sub_title_part{
-        text-align: center;
-        
-    }
-    .title_part{
+    .current_vid .title_part , .expect_part .row .card-title{
         text-align: center;
     }
-    .desc_expect .card-content .card-title{
-        text-align: center;
+    .current_vid .sub_title_part{
+        text-align: justify;
     }
+
 }
