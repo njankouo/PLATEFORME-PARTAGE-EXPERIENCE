@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Cours</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/course_list.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation white">
+            <div class="nav-wrapper ">
+                <a href="#" class="button-collapse sidenav-trigger show-on-large menu_link" data-target="mobile_menu">
+                    <i class="material-icons black-text">
+                        menu
+                    </i>
+                </a>
+                <a href="#" class="brand-logo black-text"><b>Logo</b></a>
+                <ul id="nav-mobile " class="navi_tab hide-on-med-and-down">
+                    <li>
+                        
+                    </li>
+                    <!--li><a class="black-text">Onglet 1</a><li>
+                    <li><a class="black-text">Onglet 2</a></li>
+                    <li><a class="black-text">Onglet 3</a></li>
+                    <li ><a class="black-text">Onglet 4</a></li-->
+                </ul>
+                <ul class="log_sign nav-mobile right hide-on-small-only">
+                    <li><a class="black-text">Login</a></li>
+                    <li><button class="red sign white-text">Sign Up</button></li>
+
+                </ul>
+                <form class="search_form">
+                    <div class="input-field">
+                      <input id="search" type="search" placeholder="rechercher..." validate>
+                      <label class="label-icon" for="search"><i class="material-icons grey-text">search</i></label>
+                      <i class="material-icons">close</i>
+                    </div>
+                </form>
+               
+                <ul id="mobile_menu" class="sidenav">
+                    <li class="li_user_view valign-wrapper"><div class="user-view">
+                        
+                          <img src="./image/welcome.jpg" class="responsive-img">
+                        
+                        <!--a href="#user"><img class="circle" src="images/yuna.jpg"></!--a-->
+                        <!--a href="#"><span class="white-text name">Bienvenue</span></!--a-->
+                        <!--a href="#email"><span class="white-text email">jdandturk@gmail.com</span></!--a-->
+                      </div></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">home</i>First Link With Icon</a></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">local_library</i>First Link With Icon</a></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">video_library</i>First Link With Icon</a></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">support_agent</i>First Link With Icon</a></li>
+                      <li><div class="divider"></div></li>
+                      <li><a class="subheader">Partie Connection</a></li>
+                      <li><div class="divider"></div></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">person</i>Sign in</a></li>
+                      <li><a href="#!" class="waves-effect"><i class="material-icons">login</i>Login</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+        <div class="img_header">
+            <div class="row">
+                <div class="col s12 m5 title_header_card">
+                  <div class="card-panel title_header_course">
+                    <div class="card-title white-text">
+                        Nos Cours Publiés
+                    </div>
+                    <div class="card-content">
+                        <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                            </span>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+            <div class="col s12 l12 valign-wrapper black mon_breadcrumb">
+              <a href="#!" class="breadcrumb valign-wrapper">Accueil</a>
+              <a href="#!" class="breadcrumb valign-wrapper">Nos Cours</a>
+              
+            </div>
+          
+    </header>
+
+    <main>
+        <blockquote>
+            Bonjour
+        </blockquote>
+    </main>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();    
+      $('.carousel').carousel({
+              padding: 200
+      });
+      autoplay();
+      function autoplay() {
+          $('.carousel').carousel('next');
+          setTimeout(autoplay, 4500);
+      }
+    });
+  </script>
+</html>
