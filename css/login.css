@@ -3,7 +3,8 @@ html,body{
     height: 100%;
     box-sizing: border-box;
     margin:0%;
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
 }
 header{
     border: dashed 0px yellow;
@@ -50,7 +51,7 @@ header{
 }
 /**/
 main{
-    height:61.9%;
+    height:93.2%;
     border: 0px dashed green;
     background: url(../image/log_img.png);
     background-color: rgb(0, 0, 0);
@@ -80,14 +81,10 @@ main{
 }
 .log_form{
     border: 0px solid magenta;
-    height: 100%; /*revoir cette partie*/
-    background-color: whitesmoke;
-    
-    
-  
+     /*revoir cette partie*/
+    background-color: rgba(245, 245, 245, 0.75); 
 }
 .img_msg{
-    margin-top: 25%;
     font-size: 70px;
     font-weight: bold;
     color: #121212;
@@ -99,9 +96,14 @@ main{
           -1px -1px 0 #c6c23f;
     border: 0px solid red;
     margin-bottom: 0;
+    margin-top: 8%;
    
     
 }
+form{
+    border: 0px solid red;
+    height: 40%;
+    }
 .img_sub{
     color:white;
     border: 0px solid green;
@@ -126,10 +128,10 @@ main{
     
 }
 .img_log{
-    background: url(../image/log_img.png);
-    background-color: black;
+    
+    background-color: rgba(0, 0, 0, 0.356);
     background-size: cover;
-    height: 100%;
+    height: 42%;
     border: 0px dashed darkgoldenrod;
     
 }
