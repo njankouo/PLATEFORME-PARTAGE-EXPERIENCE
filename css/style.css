@@ -126,6 +126,7 @@ font-size: 15px;
 .current_vid .title_part .sub_title_part{
     font-size: 12px;
     font-weight: lighter;
+    
 }
 .vid_action{
     margin-left:10%;
@@ -392,8 +393,8 @@ footer .footer-copyright p a:hover img{
     filter: none;
 }
 .copy_right{
-    width: 150px;
-    vertical-align: middle;
+    width: 250px;
+    
     margin-top: 2%;
 }
 /*le bouton pour revenir en haut*/
@@ -465,7 +466,8 @@ footer .footer-copyright p a:hover img{
         text-align: center;
     }
     .current_vid .sub_title_part{
-        text-align: justify;
+        text-align: center;
+        line-height: 1.2;
     }
     #button {
         margin: 30px;
