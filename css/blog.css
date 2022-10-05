@@ -318,3 +318,10 @@ footer .footer-copyright p a:hover img{
     z-index: 1;
     will-change: width, height;
   }
+  @media screen and (max-width:990px) {
+    .search_form{
+     float: right;
+     width: 100%;
+    
+    }
+  }
